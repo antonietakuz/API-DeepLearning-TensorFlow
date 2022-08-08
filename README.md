@@ -1,7 +1,6 @@
 # API-DeepLearning-TensorFlow
-# API_DeepLearning
 
-Implementaremos una red neuronal usando keras-tensorflow y la ejecutaremos en un servicio web de flask
+Implementaremos una red neuronal usando keras-tensorflow y la ejecutaremos en un servicio web de flask y Streamlit
 
 ## 1. Preparación del entorno
     $ conda create -n test anaconda python=3.9.13
@@ -24,13 +23,14 @@ Implementaremos una red neuronal usando keras-tensorflow y la ejecutaremos en un
     $ pip install numpy scipy Pillow cython matplotlib scikit-image opencv-python h5py imgaug IPython[all]
     
  ## 2. Entrenar la red neuronal
- 
+    2.1 Para Falsk
     Descargar el repositorio
     Abrir terminal en la carpeta y correr jupyter notebook
     
     $ jupyter notebook
     
     Ejecutar BirdClass.ipynb
+    
     
  ## 3. Probar la red neuronal
  
@@ -39,6 +39,14 @@ Implementaremos una red neuronal usando keras-tensorflow y la ejecutaremos en un
 ## 4. Probar el API de Flask
 
     $ python app.py
+   
+ ## 4.1 Probar el API de Streamlit
+   
+    $ streamlit run appCOVID.py
+    $ streamlit run appAves.py
+    
+    
+   
 
 ## Agradecimientos
 
