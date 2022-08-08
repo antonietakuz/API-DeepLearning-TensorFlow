@@ -19,6 +19,8 @@ Implementaremos una red neuronal usando keras-tensorflow y la ejecutaremos en un
     $ conda install -c conda-forge/label/broken keras
     $ conda install -c conda-forge/label/cf201901 keras
     $ conda install -c conda-forge/label/cf202003 keras
+    $ conda install -c anaconda flask
+    $ conda install -c conda-forge streamlit
     $ pip install numpy scipy Pillow cython matplotlib scikit-image opencv-python h5py imgaug IPython[all]
     
  ## 2. Entrenar la red neuronal
